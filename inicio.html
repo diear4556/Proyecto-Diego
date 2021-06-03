@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pruebacss.css">
+    <link rel="icon" type="image/jpeg" href="Images/avionlogo.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <meta name="description" content="Listado de los mejores Aeropuertos del Mundo">
+    <meta name="keyword" content="Aeropuerto, Ranking, Skytrax, Top5, Americas, Asia, Europa, Oceania">
+    <meta name="description" content="Aquí encontrará la información sobre nuestro sitio web, como las referencia de donde se obtuvo la información.">
+    <title>INICIO</title>
+<!-----------------------------------------INICIO HTML------------------------------------------------------->    
+</head>
+<body>
+    <!-----------------------------------------INICIO LOGO--------------------------------------------------->
+    <a href="Index-Proyecto Diego Alcazaba.html">
+        <img src="images/avionlogo.jpeg" width="100" height="100">
+    </a>
+<!-------------------------------------------FIN LOGO-------------------------------------------------------->
+
+<!-----------------------------------------INICIO GRID------------------------------------------------------->    
+    <div id="Grid">
+<!-----------------------------------------INICIO MENU------------------------------------------------------->
+<div id="Menu">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index-Proyecto Diego Alcazaba.html">MENU</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="inicio.html">inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="top5.html">Top 5</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="americas.html">Americas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="europa.html">Europa</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="asia.html">Asia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="oceania.html">Oceania</a>
+        </li>
+    </ul>
+</div>   
+<!---------------------------------------------FIN MENU----------------------------------------------------->
+
+<!-------------------------------------------TITULO--------------------------------------------------------->
+        <header class="Cabecera"><h1><b>LOS MEJORES AEROPUERTOS DEL MUNDO</b></h1></header>
+
+<!----------------------------------SECTOR PARRAFOS1 EN HTML------------------------------------------------>
+        <div class="Parrafo1">
+            <p> Skytrax elabora, como cada año, sus listas de las mejores aerolíneas del globo y los mejores aeropuertos del mundo. Una lista que más tarde se concreta en una entrega de premios, los famosos Skytrax World Airports Awards. 
+                El estudio que elabora la famosa auditoría británica se realiza a través de encuestas de satisfacción a usuarios.
+                Esta encuesta se realiza a través de la web worldairportsurvey.com, y en ella se han incluido hasta 550 aeropuertos, los cuales han sido valorados por usuarios de todo el mundo. 
+                Este análisis, al igual que la entrega de premios, tiene lugar cada año, aunque a raíz de la pandemia los correspondientes a 2020 se hicieron de manera online.
+            </p>
+        </div>
+
+<!----------------------------------------------IMAGENES-------------------------------------------------------->
+        <section class="PicInicio">
+            <div class="PicInicio__Pic3"><img src="images/AeropuertoDoha.jpeg"></div>
+        </section>            
+<!--------------------------------------------FIN IMAGENES------------------------------------------------------>
+
+<!----------------------------------SECTOR PARRAFOS2 EN HTML------------------------------------------------->
+        <div class="Parrafo2">
+        <p>
+            Para medir la eficiencia y calidad de los aeropuertos, la consultora Skytrax realiza de forma anual una encuesta mundial –con casi 15 millones de usuarios de más de 100 países– para conceder los World Airport Awards.
+            Así pues, se valoran aspectos desde la seguridad, área de migraciones, calidad de atención, conexiones y zonas de compras, hasta detalles como la limpieza, precios, disponibilidad de conectores eléctricos y áreas silenciosas.
+            En base a la más reciente encuesta realizada, los mejores aeropuertos del mundo.
+        </p>
+        </div>
+
+<!----------------------------------------LISTA EN HTML------------------------------------------------------->
+        <div id="Lista1">
+            <!--lista-->
+            <h2 class="Lista1__Subtitle">Aeropuertos Incluidos</h2>
+            <ul class="Lista1__ListaFinal">
+                <li>Aeropuerto de Haneda</li>  
+                <li>Aeropuerto de Tokio</li>    
+                <li>Aeropuerto Schipol</li>
+                <li>Aeropuerto Munich</li>
+                <li>Aeropuerto Vancouver</li>
+                <li>Aeropuerto de Doha</li>
+                <li>Aeropuerto de Sydney</li>
+                <li>Aeropuerto Melbourne</li>
+            </ul>
+        </div>
+<!-------------------------------------FIN LISTA EN HTML-------------------------------------------------------->
+
+<!------------------------------------------FORM EN HTML-------------------------------------------------------->
+        <div id="Form">
+            <!--Formulario-->
+            <h2 class="Form__Subtitle">Déjanos tus datos</h2>
+            <form action= "contacto.php" method="get">
+                <label for="texto">Nombres y Apellidos</label>
+                <input type="text" placeholder="Nombres y Apellidos" value="" required>  
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" placeholder="Correo electrónico" value="" required>
+                <h4 class="Subtitle">Escribe tu consulta</h4> 
+                <textarea name="mensaje" cols="40" rows="4" minlength="5" maxlength="200" ></textarea>
+                <input type="submit" value="Enviar Formulario">       
+            </form>
+        </div>
+<!--------------------------------------FIN FORM EN HTML--------------------------------------------------------->
+
+<!-------------------------------------PIE DE PAGINA EN HTML----------------------------------------------------->
+        <footer>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" 
+            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" 
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+            <h5>_________________________________</h5>
+            <h5>Todos los derechos reservados by Diego Alcazaba</h5>
+        </footer>
+<!----------------------------------FIN PIE DE PAGINA EN HTML----------------------------------------------------->        
+    </div>  
+<!----------------------------------------FIN GRID EN HTML-------------------------------------------------------->    
+</body>
+</html>
