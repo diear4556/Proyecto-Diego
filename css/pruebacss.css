@@ -236,3 +236,316 @@ footer {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-family: "Secular One", sans-serif; }
+
+/*------------Inicio del Responsive - MediaQuery------------------*/
+/*-------------------------Tamaño Tablet--------------------------*/
+@media only screen and (min-width: 780px) and (max-width: 1100px) {
+  #Grid {
+    width: 90%;
+    gap: 1em; }
+  #Menu {
+    grid-column: 1/5;
+    grid-row: 1/2; }
+  .Cabecera1 {
+    grid-column: 1/4;
+    grid-row: 2/8; }
+  .Cabecera1__TxTitulo {
+    font-size: 10px; }
+  #carouselExampleDark {
+    grid-column: 1/5;
+    grid-row: 10/12; }
+  .PicIndex {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  .Pic3 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .Pic4 {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  .Pic5 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .Pic6 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Pic7 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Pic8 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Pic9 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Parrafo1 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: 100%;
+    text-align: center;
+    font-size: 15px; }
+  .Parrafo2 {
+    grid-column: 1/5;
+    grid-row: 6/8;
+    width: 100%;
+    text-align: center;
+    font-size: 15px; }
+  .Parrafoabout1 {
+    grid-column: 1/5;
+    grid-row: 3/4; }
+  .Parrafoabout2 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  #Lista1 {
+    grid-column: 1/5;
+    grid-row: 10/12;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    justify-self: center; }
+  .Tablas {
+    grid-column: 1/5;
+    grid-row: 4/6;
+    width: 100%; }
+  #Video {
+    grid-column: 1/5;
+    grid-row: 6/9;
+    justify-self: center; }
+  #VideoGeneral {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  #Form {
+    grid-column: 1/5;
+    grid-row: 12/14;
+    width: 100%;
+    text-align: center; }
+  Label {
+    text-align: center; }
+  Footer {
+    grid-column: 1/5;
+    grid-row: auto;
+    text-align: center;
+    width: 100%;
+    justify-self: center; } }
+
+/*---------------------Fin Tamaño Tablet--------------------------*/
+/*-------------------------Tamaño Iphone--------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+  #grid {
+    width: 100%;
+    gap: 1em; }
+  body {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%; }
+  #menu {
+    grid-column: 4/5;
+    grid-row: 1/2; }
+  .nav li a {
+    font-size: 20px; }
+  .cabecera1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 30px; }
+  .pic1 {
+    grid-column: 1/5;
+    grid-row: 3/5; }
+  .pic2 {
+    grid-column: 1/5;
+    grid-row: 5/7; }
+  .pic3 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .pic4 {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  .pic5 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .pic6 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .pic7 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .pic8 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .pic9 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .parrafo1 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: 100%;
+    text-align: center;
+    font-size: 15px; }
+  .parrafo2 {
+    grid-column: 1/5;
+    grid-row: 6/8;
+    width: 100%;
+    text-align: center;
+    font-size: 15px; }
+  .parrafoabout1 {
+    grid-column: 1/5;
+    grid-row: 3/4; }
+  .parrafoabout2 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  #lista1 {
+    grid-column: 1/5;
+    grid-row: 10/12;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    justify-self: center; }
+  .tablas {
+    grid-column: 1/5;
+    grid-row: 4/6;
+    width: 100%; }
+  #Video {
+    grid-column: 1/5;
+    grid-row: 6/9;
+    justify-self: center; }
+  #VideoGeneral {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  #form {
+    grid-column: 1/5;
+    grid-row: 12/14;
+    width: 100%;
+    text-align: center; }
+  label {
+    text-align: center; }
+  footer {
+    grid-column: 1/5;
+    grid-row: auto;
+    text-align: center;
+    width: 100%;
+    justify-self: center; } }
+
+/*---------------------Fin Tamaño iPhone--------------------------*/
+/*-------------------Tamaño Celular Pequeño------------------------*/
+@media only screen and (max-width: 480px) {
+  #Grid {
+    width: 100%;
+    gap: 1em; }
+  #Menu {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    width: 90%; }
+  .Cabecera {
+    grid-column: 1/5;
+    grid-row: 2/3; }
+  .Cabecera1 {
+    grid-column: 1/5;
+    grid-row: 2/4;
+    width: 90%;
+    font-size: 25px; }
+  .Cabecera1__txtitulo {
+    text-align: center;
+    margin-top: 10%; }
+  #carouselExampleDark {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .PicIndex {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .PicIndex__Pic1 {
+    overflow: hidden; }
+  .PicInicio {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .PicInicio__Pic3 {
+    overflow: hidden; }
+  .Pic4 {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  .Pic5 {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .Pic6 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Pic7 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Pic8 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Pic9 {
+    grid-column: 1/5;
+    grid-row: 6/8; }
+  .Parrafo1 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: 90%;
+    text-align: center;
+    font-size: 15px; }
+  .Parrafo2 {
+    grid-column: 1/5;
+    grid-row: 6/8;
+    width: 90%;
+    text-align: center;
+    font-size: 15px; }
+  .Parrafoabout1 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: 90%;
+    text-align: center;
+    font-size: 15px; }
+  .Parrafoabout2 {
+    grid-column: 1/5;
+    grid-row: 4/6;
+    width: 90%;
+    text-align: center;
+    font-size: 15px; }
+  #Lista1 {
+    grid-column: 1/5;
+    grid-row: 8/10;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    justify-self: center; }
+  .Parrafo1__List {
+    grid-column: 1/5;
+    grid-row: 4/5; }
+  .Parrafo1__ListaFinal {
+    grid-column: 1/5;
+    grid-row: 4/6; }
+  .card {
+    grid-column: 1/5;
+    grid-row: 6/10;
+    width: 70%; }
+    .card img {
+      height: 120px; }
+  .Tablas {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    width: 100%; }
+  #Video {
+    grid-column: 1/5;
+    grid-row: 6/9;
+    justify-self: center; }
+  #VideoGeneral {
+    grid-column: 1/5;
+    grid-row: 8/10; }
+  #Form {
+    grid-column: 1/5;
+    grid-row: 10/12;
+    width: 90%;
+    text-align: center;
+    overflow: hidden; }
+  Label {
+    text-align: center; }
+  Footer {
+    grid-column: 1/5;
+    grid-row: auto;
+    text-align: center;
+    width: 90%;
+    justify-self: center; } }
+
+/*------------------Fin Tamaño Celular Pequeño-----------------------*/
+
