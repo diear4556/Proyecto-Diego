@@ -250,7 +250,7 @@ footer {
     grid-column: 1/4;
     grid-row: 2/8;
     width: 90%; }
-  .Cabecera1__TxTitulo {
+  .Cabecera1 .Cabecera1__TxTitulo {
     font-size: 20px;
     text-align: center;}
   #carouselExampleDark {
